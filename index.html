@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Html,Div,Form and Tables</title>
+    <style>
+      
+      table,th,td{
+        border: 1px solid green;
+      }
+      input{
+        border: 2px solid;
+        border-radius:4px;
+        font-size:max(16px);
+      }
+      
+    </style>
+  </head>
+  <body style="margin: 0;">
+    <div
+      style="
+        background-color: grey;
+        font-size: 20px;
+        border: 5px solid orange;
+        height: 315px;
+        width: 700px; ">
+        
+     <form action="" style="font-weight:400">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" required style="border-radius: " /><br /><br />
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="laname" required /><br /><br />
+        <label for="Email">Email Address:</label>
+        <input type="email" id="email" name="email" />
+
+        <h3>Programming Experience</h3>
+        <input type="radio" id="radio" name="radio" />
+        <label for="beginner">Beginner</label><br />
+        <input type="radio" id="radio" name="radio" />
+        <label for="Intermediate">Intermediate</label><br />
+        <input type="radio" id="radio" name="radio" />
+        <label for="Expert">Expert</label><br />
+        <label for="Desired Career">Desired Career:</label>
+        <input type="text"  /><br />
+        <input type="submit" value="submit" style="box-shadow: gold;"/>
+      </form>
+    </div>
+    <hr>
+    <div style=>
+      <form action="" style="background-color: darkgrey; width: 500px;border: 2px solid darkgoldenrod;">
+        <label for="fname">First Name:</label><input type="text"><br><br>
+        <label for="lname">Last Name:</label><input type="text"><br><br>
+        <label for="email">Email:</label><input type="text">
+      </form>
+      <hr>
+      <table style=" column-gap: 1px;" >
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Email</th>
+        </tr>
+        <tr>
+          <td>Munir</td>
+          <td>Adem</td>
+          <td>muniradem@outlook.com</td>
+        </tr>
+      </table>
+    </div>
+    
+    
+  </body>
+</html>
